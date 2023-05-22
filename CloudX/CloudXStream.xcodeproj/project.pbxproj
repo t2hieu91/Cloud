@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BFF454662A1B493000FC4AED /* CloudX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF454662A1B493000FC4AED /* CloudXStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudXStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF454692A1B493000FC4AED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFF4546B2A1B493000FC4AED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BFF4546D2A1B493000FC4AED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		BFF454672A1B493000FC4AED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFF454662A1B493000FC4AED /* CloudX.app */,
+				BFF454662A1B493000FC4AED /* CloudXStream.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFF454652A1B493000FC4AED /* CloudX */ = {
+		BFF454652A1B493000FC4AED /* CloudXStream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFF4547A2A1B493000FC4AED /* Build configuration list for PBXNativeTarget "CloudX" */;
+			buildConfigurationList = BFF4547A2A1B493000FC4AED /* Build configuration list for PBXNativeTarget "CloudXStream" */;
 			buildPhases = (
 				BFF454622A1B493000FC4AED /* Sources */,
 				BFF454632A1B493000FC4AED /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = CloudX;
+			name = CloudXStream;
 			productName = CloudX;
-			productReference = BFF454662A1B493000FC4AED /* CloudX.app */;
+			productReference = BFF454662A1B493000FC4AED /* CloudXStream.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BFF454612A1B492F00FC4AED /* Build configuration list for PBXProject "CloudX" */;
+			buildConfigurationList = BFF454612A1B492F00FC4AED /* Build configuration list for PBXProject "CloudXStream" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFF454652A1B493000FC4AED /* CloudX */,
+				BFF454652A1B493000FC4AED /* CloudXStream */,
 			);
 		};
 /* End PBXProject section */
@@ -288,13 +288,13 @@
 				CODE_SIGN_IDENTITY = "Apple Development: Harry Scorpy (BDN5925P2U)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: Harry Scorpy (BDN5925P2U)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 70;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 75G6MG3467;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CloudX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -308,9 +308,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Glass v2 - May 22 - Development";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,13 +325,13 @@
 				CODE_SIGN_IDENTITY = "Apple Distribution: D-SOFT JOINT STOCK COMPANY (75G6MG3467)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: D-SOFT JOINT STOCK COMPANY (75G6MG3467)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 70;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 75G6MG3467;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CloudX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -342,16 +345,19 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Glass v2 - May 22 - TestFlight";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFF454612A1B492F00FC4AED /* Build configuration list for PBXProject "CloudX" */ = {
+		BFF454612A1B492F00FC4AED /* Build configuration list for PBXProject "CloudXStream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFF454782A1B493000FC4AED /* Debug */,
@@ -360,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFF4547A2A1B493000FC4AED /* Build configuration list for PBXNativeTarget "CloudX" */ = {
+		BFF4547A2A1B493000FC4AED /* Build configuration list for PBXNativeTarget "CloudXStream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFF4547B2A1B493000FC4AED /* Debug */,
